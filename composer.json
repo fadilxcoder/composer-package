@@ -1,0 +1,24 @@
+{
+    "name": "fadil/composer-package",
+    "authors": [
+        {
+            "name": "Fadil",
+            "email": "fadil@xcoder.developer"
+        }
+    ],
+    "require": {
+        "ghost-dvlpr/first_package": "dev-master",
+        "ghost-dvlpr/second_package": "dev-master",
+        "tracy/tracy": "^2.8"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./dev-pack/first_package"
+        },
+        {
+            "type": "path",
+            "url": "./dev-pack/second_package"
+        }
+    ]
+}
