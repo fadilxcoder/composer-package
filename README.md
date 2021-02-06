@@ -14,3 +14,7 @@
 - In `composer.json` - `require` section, add above mentionned packages name with version `dev-master`
 - Do `composer install`
 - *vendor* will be created and add other packages if needed
+
+## Addons
+
+- https://opensource.org/licenses/MIT (MIT License)
